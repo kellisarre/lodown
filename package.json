@@ -1,0 +1,36 @@
+{
+  "name": "lodown-kellisarre",
+  "version": "1.0.0",
+  "description": "lodown, an underscore-like library with a few functions",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kellisarre/lodown.git"
+  },
+  "keywords": [
+    "lodown",
+    "underscore",
+    "library",
+    "lodash",
+    "variant"
+  ],
+  "author": "Kelli Sarre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kellisarre/lodown/issues"
+  },
+  "homepage": "https://github.com/kellisarre/lodown#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "i": "^0.3.6",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "sinon": "^7.1.1"
+  }
+}
